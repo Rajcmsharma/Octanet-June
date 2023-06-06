@@ -1,15 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
-
 body {
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
 }
 
 .zone {
-  color: #fff;
+  color: white;
   font-size: 2em;
   border-radius: 4px;
-  transition: all 0.3s linear;
 }
 
 .main-nav {
@@ -57,7 +54,7 @@ a {
 }
 
 .container {
-  height: 100vh;
+  height: 94vh;
   display: flex;
   align-items: center;
   justify-content: center;
