@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
 body {
   margin: 0px auto;
+  font-family: 'Satisfy', cursive;
 }
 
 .text {
