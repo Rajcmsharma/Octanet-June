@@ -1,16 +1,14 @@
 body {
-  margin: 0 auto;
-  font-family: "Poppins", sans-serif;
+  margin: 0px auto;
 }
 
-.zone {
+.text {
   color: white;
-  font-size: 2em;
   border-radius: 4px;
+  font-size: 2rem;
 }
 
-.main-nav {
-  /* creates a */
+.nav {
   display: flex;
   list-style: none;
   margin: 0;
@@ -48,7 +46,7 @@ a {
 }
 
 .container {
-  height: 94vh;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,8 +59,8 @@ a {
 
 footer {
   text-align: center;
-  padding: 3px;
-  background-color: #090A13;
+  padding: 1px;
+  background-color: black;
 }
 
 footer p {
