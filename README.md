@@ -1,3 +1,2 @@
 # Octanet-June
-# hi
-# gi
+task 1: landing page 
