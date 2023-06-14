@@ -68,6 +68,19 @@ input::placeholder {
     font-weight: bold;
 
 }
-
+footer {
+    border:2px solid red;
+    position: relative;
+    top:610px;
+    text-align: center;
+    padding: 1px;
+    background-color: black;
+    
+  }
+  
+  footer p {
+    font-size: 1rem;
+    color:white;
+  }
 
 
