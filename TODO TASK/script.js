@@ -23,7 +23,6 @@ function AddElement(text){
     const ele = document.createElement('li')
     const text_node = document.createElement("span")
     text_node.innerText = text
-    text
     ele.appendChild(text_node)
     ele.style.margin="2px 2px";
     list.appendChild(ele)
@@ -37,10 +36,7 @@ function AddElement(text){
     button.style.border= "2px solid white";
     button.style.backgroundColor="green";
     button.style.borderRadius="15px"
-    ele.appendChild(button)
-    button.addEventListener("onclick",(e) =>{
-        deleteElement(e)
-    })
+    ele.appendChild(button);
 }
 
 function deleteElement(ele){
