@@ -61,12 +61,15 @@ input::placeholder {
 #list_item {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    height:300px;
     align-items:center;
+    justify-content: space-evenly;
     font-size:large;
     position: relative;
-    top: 25px;
+    top: 200px;
     font-weight: bold;
-
+    
 }
 footer {
     border:2px solid red;

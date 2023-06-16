@@ -1,5 +1,4 @@
 const input = document.querySelector('.search')
-const btn = document.querySelector("#add")
 const list = document.querySelector('#list_item')
 
 
@@ -29,7 +28,7 @@ function AddElement(text){
 
     //delete button
     const button = document.createElement('button')
-    button.innerHTML = "<a onclick=\"deleteElement(this)\"> Done </a>";
+    button.innerHTML = "<a onclick='deleteElement(this)'> Done </a>";
     button.style.margin="5px 5px  "
     button.style.padding="10px 10px "
     button.style.cursor="pointer"
@@ -45,6 +44,5 @@ function deleteElement(ele){
     ele.parentElement.parentElement.remove()
 }
 
-btn.addEventListener('click', (handleAdd))
-const body = document.querySelector('body')
+
 
