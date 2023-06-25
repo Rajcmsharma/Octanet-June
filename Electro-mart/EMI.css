@@ -1,0 +1,176 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x:hidden ;
+}
+
+
+
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 16px;
+  height: 400px;
+  background-color:lightgreen;
+}
+.f-nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: greenyellow;
+  border-top: 1px solid purple;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.nav-item {
+  display: flex;
+  padding-left: 50px;
+  
+  
+}
+.d-block {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+ 
+}
+.d-block:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+  border-radius: 20px;
+  border: 3px solid palevioletred;
+}
+.float-container2 {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.float-child2 {
+  width: 50%;
+  float: left;
+  padding: 30px;
+  height: 300px;
+}
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+
+  justify-content: space-between;
+  margin: 10px 20px 10px 20px;
+}
+
+.flex-item {
+  height: 200px;
+  border: 2px solid palevioletred;
+  border-radius: 20px;
+}
+#flex-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(https://media.istockphoto.com/id/515443264/photo/home-appliance-in-the-store.jpg?s=612x612&w=0&k=20&c=Zi69da3N5D31WXba7U9H2Rw4jWt_5IngnZAeZ3Kzix8=)
+      center/cover no-repeat fixed;
+}
+
+.flex-item2 {
+  height: 200px;
+  border: 2px solid palevioletred;
+  border-radius: 20px;
+  background-color: azure;
+}
+.float-containerr {
+  border: 3px solid #fff;
+  padding: 10px 40px 10px 40px;
+  margin-bottom: 60px;
+}
+
+.float-childd {
+  width: 33%;
+  float: left;
+  padding: 10px 40px;
+}
+.d-block1 {
+  margin: 70px;
+  display: flex;
+  float: left;
+  height: 231px;
+  width: 429px;
+  border-radius: 10px;
+  box-shadow: green 3px 16px 32px -7px, yellowgreen 1px -2px 5px 1px inset;
+}
+
+.feature {
+  display: flex;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 8px;
+}
+.recent {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ---------------  FOOTER SECTION -------------*/
+
+.footer-container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8c8d94;
+  width: 100vw;
+  height: 40vh;
+  margin-top: 20rem;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+}
+.sub-footer {
+  
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 3rem;
+}
+.sub-footer a {
+  text-decoration: none;
+  color: #fbfafc;
+  line-height: 25px;
+  font-size: 12px;
+  font-family: Inter, Roboto, Arial, sans-serif;
+}
+.sub-footer a:hover {
+  color: #e80071;
+  text-decoration: none;
+  transition: 0.5s all ease-in-out;
+}
+.EMI-logo {
+  width: 65px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.footer-p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: Inter, Roboto, Arial, sans-serif;
+}
